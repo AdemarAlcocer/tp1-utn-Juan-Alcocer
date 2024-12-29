@@ -24,23 +24,23 @@
 <body>
 
   <head>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-lg bg-danger fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#biografia">biografia</a>
+              <a class="nav-link active text-white" aria-current="page" href="#biografia">biografia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#formacion">formacion</a>
+              <a class="nav-link text-white" href="#formacion">formacion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacto">contacto</a>
+              <a class="nav-link text-white" href="#contacto">contacto</a>
             </li>
           </ul>
         </div>
@@ -50,7 +50,11 @@
   <main>
     <section id="biografia">
       <div>
-        <p>mi biografia</p>
+        <img class="img-mia" src="./assets/Sin título.png" alt="foto mia">
+        <div class="texto">
+          <h1>Juan Alcocer</h1>
+          <p>Un poco de informacion mia en general y actividades</p>
+        </div>
       </div>
 
     </section>
@@ -67,8 +71,30 @@
 
     </section>
   </main>
-  <footer>
-
+  <footer class="footer">
+    <ul class="menu">
+      <li class="icono-img">
+        <a href="#" class="icono">
+          <i class='bx bxl-instagram'></i>
+        </a>
+      </li>
+      <li class="icono-img">
+        <a href="#" class="icono">
+          <i class='bx bxl-facebook-square'></i>
+        </a>
+      </li>
+      <li class="icono-img">
+        <a href="#" class="icono">
+          <i class='bx bxl-whatsapp'></i>
+        </a>
+      </li>
+      <li class="icono-img">
+        <a href="#" class="icono">
+          <i class='bx bxs-envelope'></i>
+        </a>
+      </li>
+    </ul>
+    <p class="texto-footer">Mi porfolio - juan Alcocer 2024</p>
   </footer>
 
   <!--javascript - bootstrap-->
